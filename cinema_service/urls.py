@@ -7,7 +7,7 @@ from cinema_service.settings import DEBUG
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("cinema/", include("cinema.urls")),
+    path("api/cinema/", include("cinema.urls")),
 ]
 
 if DEBUG:
